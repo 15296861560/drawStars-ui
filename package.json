@@ -2,7 +2,7 @@
   "name": "draw-stars-ui",
   "version": "0.1.0",
   "private": false,
-  "main": "dist/one-ui-upload.umd.min.js",
+  "main": "dist/draw-stars-ui.umd.min.js",
   "author": "lgy-lgy",
   "scripts": {
     "serve": "vue-cli-service serve",
