@@ -4,13 +4,15 @@
  * @Autor: lgy
  * @Date: 2022-10-07 23:48:11
  * @LastEditors: lgy
- * @LastEditTime: 2022-10-08 23:10:59
+ * @LastEditTime: 2022-11-13 00:42:06
  */
 import less from 'less'
 
 import Flop from './flop'
+import HardTip from './hardTip'
+import dsInput from './dsInput'
 
-const components = [Flop]
+const components = [Flop, HardTip, dsInput]
 
 // 定义install方法
 const install = function (Vue) {

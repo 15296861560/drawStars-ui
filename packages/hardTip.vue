@@ -24,6 +24,7 @@
 </template>
 <script>
 export default {
+  name: "HardTip",
   props: {
     isShow: {
       type: Boolean,
