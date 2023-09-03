@@ -4,6 +4,29 @@
  * @Autor: lgy
  * @Date: 2023-08-27 19:40:49
  * @LastEditors: lgy
- * @LastEditTime: 2023-08-27 19:43:06
+ * @LastEditTime: 2023-09-03 20:28:30
 -->
 # draw-stars-ui
+
+## 使用说明
+
+### 初始化
+npm install 
+
+### 本地预览
+npm run dev
+
+### 编译文档
+npm run build:doc
+
+### 打包
+npm run build:lib
+
+### 生成新组件
+npm run gen
+输入组件英文名
+输入组件中文名
+输入组件描述
+
+### 发布
+npm publish
