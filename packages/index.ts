@@ -1,11 +1,3 @@
-/*
- * @Description: 
- * @Version: 2.0
- * @Autor: lgy
- * @Date: 2023-08-20 20:34:44
- * @LastEditors: lgy
- * @LastEditTime: 2023-08-23 23:42:32
- */
 /* eslint-disable */
 
 /** 
@@ -16,13 +8,16 @@
 import { App, Plugin } from 'vue';
 
 import { ButtonPlugin } from './Button';
+import { FlipPlugin } from './Flip';
 
 const DrawStartsPlugin: Plugin = {
   install(app: App) {
     ButtonPlugin.install?.(app);
+    FlipPlugin.install?.(app);
   },
 };
 
 export default DrawStartsPlugin;
 
 export * from './Button'
+export * from './Flip'

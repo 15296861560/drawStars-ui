@@ -4,5 +4,11 @@
     "compZhName": "按钮",
     "compDesc": "这是一个按钮",
     "compClassName": "button"
+  },
+  {
+    "compName": "Flip",
+    "compZhName": "翻牌器",
+    "compDesc": "模拟翻牌计数效果的组件",
+    "compClassName": "flip"
   }
 ]
