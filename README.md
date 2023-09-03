@@ -4,7 +4,7 @@
  * @Autor: lgy
  * @Date: 2023-08-27 19:40:49
  * @LastEditors: lgy
- * @LastEditTime: 2023-09-03 20:28:30
+ * @LastEditTime: 2023-09-03 21:25:40
 -->
 # draw-stars-ui
 
@@ -30,3 +30,11 @@ npm run gen
 
 ### 发布
 npm publish
+
+### 使用
+npm install draw-stars-ui --save
+
+在main.ts文件中引入使用
+import DrawStartsUI from "draw-stars-ui";
+const app = createApp(App);
+app.use(DrawStartsUI);
