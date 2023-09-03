@@ -1,8 +1,8 @@
 {
   "name": "draw-stars-ui",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "private": false,
-  "main": "dist/draw-stars-ui.umd.js",
+  "main": "dist/draw-starts-ui.umd.js",
   "author": "lgy-lgy",
   "scripts": {
     "dev": "vite --config ./build/base.config.ts",

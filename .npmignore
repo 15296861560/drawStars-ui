@@ -1,0 +1,12 @@
+# 忽略目录
+build/
+docs/
+packages/
+public/
+script/
+src/
+ 
+# 忽略指定文件
+tsconfig.json
+tsconfig.node.json
+index.html
