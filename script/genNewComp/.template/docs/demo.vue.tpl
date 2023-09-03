@@ -1,5 +1,5 @@
 <template>
   <div>
-    <my-{{ compClassName }} />
+    <ds-{{ compClassName }} />
   </div>
 </template>
