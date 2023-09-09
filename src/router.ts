@@ -18,6 +18,11 @@
     name: 'Flip',
     path: '/components/Flip',
     component: () => import('packages/Flip/docs/README.md'),
+  },{
+    title: '虚拟列表',
+    name: 'VirtualList',
+    path: '/components/VirtualList',
+    component: () => import('packages/VirtualList/docs/README.md'),
   }];
  
  const routerConfig = {

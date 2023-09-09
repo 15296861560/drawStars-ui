@@ -9,11 +9,13 @@ import { App, Plugin } from 'vue';
 
 import { ButtonPlugin } from './Button';
 import { FlipPlugin } from './Flip';
+import { VirtualListPlugin } from './VirtualList';
 
 const DrawStartsPlugin: Plugin = {
   install(app: App) {
     ButtonPlugin.install?.(app);
     FlipPlugin.install?.(app);
+    VirtualListPlugin.install?.(app);
   },
 };
 
@@ -21,3 +23,4 @@ export default DrawStartsPlugin;
 
 export * from './Button'
 export * from './Flip'
+export * from './VirtualList'

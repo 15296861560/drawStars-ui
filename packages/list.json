@@ -10,5 +10,11 @@
     "compZhName": "翻牌器",
     "compDesc": "模拟翻牌计数效果的组件",
     "compClassName": "flip"
+  },
+  {
+    "compName": "VirtualList",
+    "compZhName": "虚拟列表",
+    "compDesc": "高性能渲染大量数据的虚拟列表",
+    "compClassName": "virtual-list"
   }
 ]
